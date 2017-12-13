@@ -7,3 +7,10 @@ To be used inside a Jenkins pipeline
         lib('github.com/OrlandoSoto/orlando-shared-libraries')
         }
   ```
+
+To run from a specific branch in a shared library repo:
+```
+ libraries {
+        lib('github.com/OrlandoSoto/orlando-shared-libraries@my-branch')
+    }
+ ```
