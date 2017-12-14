@@ -1,7 +1,7 @@
 def call(body) {
     sh """
         (
-        echo 'Hello from shared library'
+        echo 'Hello from shared library in github.com'
         )
     """
 }
