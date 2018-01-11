@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'echo \'multibranch\''
+        sh 'echo \'multibranch from public Github\''
       }
     }
   }
